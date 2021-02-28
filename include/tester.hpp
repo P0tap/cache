@@ -1,6 +1,6 @@
 // Copyright 2020 P0tap <nikita.potapov.1999@bk.ru>
-#ifndef INCLUDE_TESTERCASHES_HPP_
-#define INCLUDE_TESTERCASHES_HPP_
+#ifndef INCLUDE_TESTER_HPP_
+#define INCLUDE_TESTER_HPP_
 #include "string"
 #include "vector"
 class tester {
@@ -29,4 +29,4 @@ class tester {
   std::stringstream getExp(int indexOfBuf);
   std::string getInvestigation();
 };
-#endif  // INCLUDE_TESTERCASHES_HPP_
+#endif  // INCLUDE_TESTER_HPP_
